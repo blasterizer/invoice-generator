@@ -62,4 +62,5 @@ for filepath in filepaths:
     pdf.cell(w=30, h=8, txt="Tron Technologies", border=0)
     pdf.image("Tron.png", w=8)
 
+    # Create a PDFs Directory in the Root Folder then proceed
     pdf.output(f"PDFs/{filename}.pdf")
